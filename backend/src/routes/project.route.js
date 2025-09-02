@@ -11,5 +11,3 @@ projectRouter.get('/', getProjects)
 projectRouter.get('/:id', getProjectsById)
 
 export default projectRouter
-
-

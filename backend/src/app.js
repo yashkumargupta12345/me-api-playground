@@ -8,6 +8,8 @@ import mongoose from 'mongoose'
 import healthRouter from './routes/health.route.js'
 import profileRouter from './routes/profile.route.js'
 import projectRouter from './routes/project.route.js'
+import skillRouter from './routes/skill.route.js'
+import searchRouter from './routes/search.route.js'
 
 
 
@@ -29,6 +31,9 @@ mongoose.connect(process.env.MONGODB_URI).then(() => console.log('Connected to M
 app.use('/api/health', healthRouter)
 app.use('/api/profile', profileRouter)
 app.use('/api/projects', projectRouter)
+app.use("/api/skills", skillRouter)
+app.use("/api/search", searchRouter)
+
 
 app.listen(PORT, ()=> {
     console.log(`Server is running on port ${PORT}`);
