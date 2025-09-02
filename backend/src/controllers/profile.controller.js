@@ -19,7 +19,7 @@ export const getProfile = async (req, res) => {
 // Create Profile
 export const createProfile = async (req, res) => {
     try {
-        const existingProfile = await profile.findOne()
+        const existingProfile = await Profile.findOne()
         if (existingProfile) {
             return res.status(400).json({ message: 'Profile already exists. Use PUT to update.' })
         }
