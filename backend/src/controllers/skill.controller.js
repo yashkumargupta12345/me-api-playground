@@ -4,7 +4,7 @@ import Profile from "../models/profile.model.js";
 // Get all skills
 export const getSkills = async(req, res) => {
     try {
-        const profile = await Profile.fineOne()
+        const profile = await Profile.findOne()
         if(!profile){
             return res.status(404).json({ message: 'Profile not found' })
         }

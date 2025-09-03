@@ -8,7 +8,7 @@ const ErrorMessage = ({ error, onRetry }) => {
         {onRetry && (
           <button 
             onClick={onRetry}
-            className="btn-primary"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200"
           >
             Try Again
           </button>

@@ -11,8 +11,6 @@ import projectRouter from './routes/project.route.js'
 import skillRouter from './routes/skill.route.js'
 import searchRouter from './routes/search.route.js'
 
-
-
 dotenv.config()
 
 const app = express()

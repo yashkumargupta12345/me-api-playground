@@ -15,7 +15,7 @@ const api = axios.create({
 export const profileAPI = {
     getProfile: () => api.get('/profile'),
     createProfile: (data) => api.post('/profile', data),
-    updateProfile: (data) => api.put('profile', data),
+    updateProfile: (data) => api.put('/profile', data),
     deleteProfile: () => api.delete('/profile'), 
 }
 
