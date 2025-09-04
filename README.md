@@ -3,6 +3,9 @@
 ## 🚀 Live Demo
 [Click here to view](https://me-api-playground-frontend-gules.vercel.app/)
 
+## 📬 Postman Collection
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://api.postman.com/collections/39007991-2da14ac9-4659-4707-a1b4-24a084d6a270?access_key=PMAT-01K49GS11X8JPK379W3T2R04C6)
+
 
 ### Backend Architecture
 ```
